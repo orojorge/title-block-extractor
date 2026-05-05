@@ -1,0 +1,426 @@
+[
+  {
+    "pdf_path": "00000-00_A-SA-0-200-000VP2.0_Z3.pdf",
+    "plan_no": "000",
+    "plan_name": "Z3 Schnitt A",
+    "scale": ["1:200"],
+    "date": ["09.07.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "007_810909_Wände-UG_Wohnhaus.pdf",
+    "plan_no": "81091.1-7",
+    "plan_name": "Wände UG",
+    "scale": ["1:50", "1:20"],
+    "date": ["09.09.1981", "17.09.1981"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "0324_A_214_4015-00-Detail Element Typ 13 SC Fenster_Kämpfer.pdf",
+    "plan_no": "0324_A_214_4015",
+    "plan_name": "Detail Element Typ 13 SC Fenster/Kämpfer",
+    "scale": ["1:5"],
+    "date": ["30.08.2019", "21.09.2018"],
+    "bkp_code": ["214"]
+  },
+  {
+    "pdf_path": "0324_A_221-1_5500_00_Detail Fenster Vertikal Typ 1.1.pdf",
+    "plan_no": "0324_A_221-1_5500",
+    "plan_name": "Detail Fenster Vertikal Typ 1.1",
+    "scale": ["1:5"],
+    "date": ["09.10.2020"],
+    "bkp_code": ["221.1"]
+  },
+  {
+    "pdf_path": "0337_401_Modell-AEH_Var2.pdf",
+    "plan_no": null,
+    "plan_name": "AEH_neues Layout Var.2",
+    "scale": ["1:200"],
+    "date": ["15.02.2019"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "0349_41_H2_Dossier Flachdacharbeiten (verschoben).pdf",
+    "plan_no": "0349_41_2_601-21",
+    "plan_name": "Detail Dachausstieg Querschnitt",
+    "scale": ["1:5"],
+    "date": ["22.02.2019", "13.03.2019"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "04.10 -40. 3.OG - Module C2.pdf",
+    "plan_no": null,
+    "plan_name": "-40. 3.OG - Module C2",
+    "scale": ["1:500"],
+    "date": ["31.10.2024"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "0428_HIAG_Wohnungslueftung_OG1.pdf",
+    "plan_no": "0428-1",
+    "plan_name": "Wohnungslüftung: Übergang RGs zu OG1",
+    "scale": ["1:100"],
+    "date": ["08.04.2022"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "0467_41_AR_BE_XX_ BKP 221.4 Fenster in Alu _ BKP 215.2 Fassadenbau_01_.pdf",
+    "plan_no": "0467_41_AR_SP_D2_BKP 221.4 Fenster in Alu / BKP 215.2 Fassadenbau Übersicht DG2_01",
+    "plan_name": "BKP 221.4 Fenster in Alu / BKP 215.2 Fassadenbau Übersicht DG2",
+    "scale": ["1:200"],
+    "date": ["21.03.2025"],
+    "bkp_code": ["221.4", "215.2"]
+  },
+  {
+    "pdf_path": "0503_Praesentation_PT11_.pdf",
+    "plan_no": null,
+    "plan_name": "Planfreeze 3.0 Erdgeschoss",
+    "scale": null,
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "10-26_AD_A_258.126-GR Küchen Typ 10.pdf",
+    "plan_no": "10-26_AD_A_258.126",
+    "plan_name": "GR Küchen Typ 10",
+    "scale": ["1:20"],
+    "date": ["30.09.2021"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "1200 GR Grundrisse 1_200.pdf",
+    "plan_no": "0502_1201",
+    "plan_name": "Untergeschoss",
+    "scale": ["1:200"],
+    "date": ["10.06.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "16-20_AD_A_271_Gipserarbeiten_Schaechte_Block_B_Vorabzug.pdf",
+    "plan_no": "16-20_AÜ_A_271.018",
+    "plan_name": "Gipserarbeiten ÜS Schächte Block B 1.UG",
+    "scale": ["1:200"],
+    "date": ["11.02.2020"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "1732-190819-A3-Stand S+S-r_.pdf",
+    "plan_no": "16061.4.14",
+    "plan_name": "01 F/W 14 Unterführung Dreikönigbrücke",
+    "scale": ["1:100", "1:50"],
+    "date": ["08.2017"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "190617_0395_Grundriss_asp.pdf",
+    "plan_no": null,
+    "plan_name": "Erdgeschoss",
+    "scale": ["1:500"],
+    "date": ["13.06.2019"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "20231221181358.pdf",
+    "plan_no": "1.328_32_AR_SP_BM_XXX_101",
+    "plan_name": "Baumasse BMZ & Tabelle",
+    "scale": ["1:500", "1:100"],
+    "date": ["20.12.2023", "20.12.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "229.2.1024-A Schnitt 4-4.pdf",
+    "plan_no": null,
+    "plan_name": "Schnitt 4-4 - 229.2.1024-A",
+    "scale": ["1:100"],
+    "date": ["26.10.2009"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "23.0242 BP Züllig Pergola Kommentare.pdf",
+    "plan_no": "0481-GR_02",
+    "plan_name": "Pergola Carport",
+    "scale": ["1:50"],
+    "date": ["13.08.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "240605 Stadion Grundrisse 1_200 A0.pdf",
+    "plan_no": "1101",
+    "plan_name": "Grundriss 3.OG",
+    "scale": ["1:200"],
+    "date": ["15.05.2024", "04.06.2024"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "250827_ASF_ENB Guet_Holzbaudetails Haus A_.pdf",
+    "plan_no": "DET.8",
+    "plan_name": "Konstruktionsaufbauten",
+    "scale": ["1:10"],
+    "date": ["27.08.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "260318_0485_Planstand1_100 grau.pdf",
+    "plan_no": null,
+    "plan_name": null,
+    "scale": null,
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "265_2_4502 [Südfassade Detail].pdf",
+    "plan_no": "265_2_4502",
+    "plan_name": "Südfassade Detail",
+    "scale": ["1:20"],
+    "date": ["22.07.2013"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "2926-103 Bodenplatte_Wände HSB.pdf",
+    "plan_no": "103",
+    "plan_name": "BODENPLATE + WÄNDE HSB SCHACHT",
+    "scale": ["1:50"],
+    "date": ["20.06.2011"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "331_ISTE-Plandokumentation_.pdf",
+    "plan_no": null,
+    "plan_name": null,
+    "scale": ["1:2000"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "485_VP_Abbruch_161005.pdf",
+    "plan_no": "VP_011",
+    "plan_name": "Abbruchplan Bushof",
+    "scale": ["1:200"],
+    "date": ["05.10.2016"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "8707-111.pdf",
+    "plan_no": "8707-111",
+    "plan_name": "Decke über 1.UG",
+    "scale": ["1:50", "1:20"],
+    "date": ["14.04.1989"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "A-SP-ZZ-420.02-V Küche Typ 1 Halle AN A, SN A.pdf",
+    "plan_no": "A-SP-ZZ-420.02-V",
+    "plan_name": "Küche Typ 1 Halle AN A, SN A",
+    "scale": ["1:20"],
+    "date": ["15.12.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Abgabe Vorprojekt_.pdf",
+    "plan_no": null,
+    "plan_name": null,
+    "scale": ["1:800"],
+    "date": ["27.02.2017"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "CAD-Pläne 22-0999-011B bis -018 rev.2 15.05.24_freiga.pdf",
+    "plan_no": "22-0999-011B",
+    "plan_name": null,
+    "scale": null,
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "ENB Guet 281 Fugen Unterlagsböden_Anpassungen Erker:Einschiebling.pdf",
+    "plan_no": "AB-SP-EG-PA-281.12-V",
+    "plan_name": "ÜS Bodenbeläge EG A",
+    "scale": ["1:300"],
+    "date": ["07.11.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Frühstück_im_Gruenen_Layout1.pdf",
+    "plan_no": null,
+    "plan_name": "Wohnsiedlung Schwamendinger - Dreieck, Baufeld B",
+    "scale": ["1:500"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "GLA-X-41-ARC-XX-NZ-00000-1_gesamt_eho.pdf",
+    "plan_no": "GLA-X-41-ARC-XX-NZ-00000-1",
+    "plan_name": "Nasszellen Materialisierung (3)",
+    "scale": null,
+    "date": ["05.12.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Genehmigte Pläne 20210305 pos.pdf",
+    "plan_no": "EBO-POOL-33-SC-ZZZ-009904-00",
+    "plan_name": "Hauptzugang Längsschnitt",
+    "scale": ["1:100"],
+    "date": ["17.02.2021"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Holz-Metall-Fenster_231129 - CIAG_kommentiert_mse.pdf",
+    "plan_no": "3.0100_ARCH_0440_300",
+    "plan_name": "Übersicht Holz-Metall-Fenster BBE - Ost, West",
+    "scale": ["1:300", "1:1"],
+    "date": ["17.11.2023", "17.11.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "HolzbauFassade_Detailkatalog Gebäudehülle_K ommCIAG_230817_concept.pdf",
+    "plan_no": "29517_922",
+    "plan_name": "Geschossübergang Grid horizontal Ebene2 BBE",
+    "scale": ["1:10"],
+    "date": ["28.07.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Kellergrundriss Gebälk über Keller.pdf",
+    "plan_no": null,
+    "plan_name": null,
+    "scale": ["1:50"],
+    "date": ["25.06.1945"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "NZ-B-2 Nasszelle B-2 EG_Grundriss.pdf",
+    "plan_no": "0481-40-DE-NZ-B-2",
+    "plan_name": "KELLERGRUNDRISS",
+    "scale": ["1:20"],
+    "date": ["20.02.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "OBB-AR-BP-EG-XX-XXX-103-Va_230428.pdf",
+    "plan_no": "OBB-AR-BP-EG-XX-XXX-103-Va",
+    "plan_name": "Landerwerbsplan",
+    "scale": ["1:1000"],
+    "date": ["21.04.2023", "28.04.2023"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "PDF176.pdf",
+    "plan_no": "7.3",
+    "plan_name": "Aussengeräteraum Vertikalschnitt",
+    "scale": null,
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "RZE_4.7.11_visiert.pdf",
+    "plan_no": null,
+    "plan_name": "4.7.11 Sim-Lab/Tragwerksl. Grundriss EG",
+    "scale": ["1:100"],
+    "date": ["24.10.2018", "24.10.2018"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "SW13_BA_ES01.pdf",
+    "plan_no": "081",
+    "plan_name": "Anschluss an Massivdecke; Estrich im Wandbereich getrennt",
+    "scale": ["1:2,5"],
+    "date": ["01.2015"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Tragkonzept_19.5.20.pdf",
+    "plan_no": null,
+    "plan_name": "Ebene -1 (Biliothekshof/ Quartiershof)",
+    "scale": ["1:200"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Y84.pdf",
+    "plan_no": "2",
+    "plan_name": "Gewächshaus Y84 1. und 2. Untergeschoss",
+    "scale": ["1:200"],
+    "date": ["29.07.2016", "30.07.2019"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Zeichn.Nr.20 Blatt 13.pdf",
+    "plan_no": "20",
+    "plan_name": "Maschinenhaus & Mittelbau Kote 410.85",
+    "scale": null,
+    "date": ["17.07.2001"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "00000-00_V-Z3-SC-S04-050-020C.pdf",
+    "plan_no": "Z3-020",
+    "plan_name": "Schnitte Schnitt S4",
+    "scale": ["1:50"],
+    "date": ["04.04.2024"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "1.2 GebÑude A_LOD 1_50.pdf",
+    "plan_no": "1.1.1.1",
+    "plan_name": "-1. Untergeschoss",
+    "scale": ["1:50"],
+    "date": ["03.11.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "0496_231106_Debriefing_Woche3.pdf",
+    "plan_no": null,
+    "plan_name": "Variante 0",
+    "scale": ["1:1000"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "801_d_Spielfeldmarkierungen_2010.pdf",
+    "plan_no": null,
+    "plan_name": "American Football",
+    "scale": ["1:200", "1:1000"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "034253 Wasserwerkstrasse 99.pdf",
+    "plan_no": "5501",
+    "plan_name": "KANALISATION - U. UMGEBUNGSARBEITEN",
+    "scale": ["1:100"],
+    "date": ["15.01.1937"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "20251217_SSA Kesselhaus_Landschaft Präsentation für TAZ,GSZ,EWZ.pdf",
+    "plan_no": null,
+    "plan_name": "Konzept Mittlerer Letten",
+    "scale": null,
+    "date": ["17.12.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "H4 RG.pdf",
+    "plan_no": null,
+    "plan_name": "RG (1.OG - 6.OG)",
+    "scale": ["1:100"],
+    "date": ["09.04.2025"],
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Schatten.pdf",
+    "plan_no": null,
+    "plan_name": null,
+    "scale": ["1:100"],
+    "date": null,
+    "bkp_code": null
+  },
+  {
+    "pdf_path": "Z5-001 Untergeschoss.pdf",
+    "plan_no": "Z5-001",
+    "plan_name": "Grundrisse Untergeschoss",
+    "scale": ["1:50"],
+    "date": ["30.11.2023"],
+    "bkp_code": null
+  }
+]

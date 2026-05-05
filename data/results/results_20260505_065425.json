@@ -1,0 +1,2090 @@
+{
+  "config": {
+    "model": "qwen3.5:9b",
+    "num_ctx": 4096,
+    "temperature": 0,
+    "fallback": true,
+    "dpi": 150,
+    "crop_size": 560,
+    "thumb_size": 912
+  },
+  "results": [
+    {
+      "pdf_path": "data/drawings/00000-00_A-SA-0-200-000VP2.0_Z3.pdf",
+      "elapsed_s": 6.139,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Z3 Schnitt A",
+          "extracted": "Z3 Schnitt A",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "09.07.2025"
+          ],
+          "extracted": [
+            "09.07.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "000",
+          "extracted": "000",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/007_810909_Wände-UG_Wohnhaus.pdf",
+      "elapsed_s": 6.107,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Wände UG",
+          "extracted": "F3 (2x1) 1:20",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "09.09.1981",
+            "17.09.1981"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": "81091.1-7",
+          "extracted": "F3 (2x1) 1:20",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:50",
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0324_A_214_4015-00-Detail Element Typ 13 SC Fenster_Kämpfer.pdf",
+      "elapsed_s": 4.734,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Detail Element Typ 13 SC Fenster/Kämpfer",
+          "extracted": "Detail Element Typ 13 SC Fenster/Kämpfer",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "30.08.2019",
+            "21.09.2018"
+          ],
+          "extracted": [
+            "30.08.2019",
+            "21.09.2018"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0324_A_214_4015",
+          "extracted": "0324_A_214_4015",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:5"
+          ],
+          "extracted": [
+            "1:5"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": [
+            "214"
+          ],
+          "extracted": [
+            "214"
+          ],
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0324_A_221-1_5500_00_Detail Fenster Vertikal Typ 1.1.pdf",
+      "elapsed_s": 4.353,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Detail Fenster Vertikal Typ 1.1",
+          "extracted": "Detail Fenster Vertikal Typ",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "09.10.2020"
+          ],
+          "extracted": [
+            "09.10.2020"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0324_A_221-1_5500",
+          "extracted": "0324_A_221-1_5500",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:5"
+          ],
+          "extracted": [
+            "1:5"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": [
+            "221.1"
+          ],
+          "extracted": [
+            "221.1"
+          ],
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0337_401_Modell-AEH_Var2.pdf",
+      "elapsed_s": 3.868,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "AEH_neues Layout Var.2",
+          "extracted": "AEH_neues Layout Var.2",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "15.02.2019"
+          ],
+          "extracted": [
+            "15.02.2019"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0349_41_H2_Dossier Flachdacharbeiten (verschoben).pdf",
+      "elapsed_s": 4.417,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Detail Dachausstieg Querschnitt",
+          "extracted": "Detail Dachausstieg Querschnitt",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "22.02.2019",
+            "13.03.2019"
+          ],
+          "extracted": [
+            "22.02.2019"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0349_41_2_601-21",
+          "extracted": "0349_41_2_601-21",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:5"
+          ],
+          "extracted": [
+            "1:5"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/04.10 -40. 3.OG - Module C2.pdf",
+      "elapsed_s": 3.705,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "-40. 3.OG - Module C2",
+          "extracted": "3. OG - Module C2",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "31.10.2024"
+          ],
+          "extracted": [
+            "31.10.2024"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:500"
+          ],
+          "extracted": [
+            "1:500"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0428_HIAG_Wohnungslueftung_OG1.pdf",
+      "elapsed_s": 3.997,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Wohnungslüftung: Übergang RGs zu OG1",
+          "extracted": "Wohnungslüftung: Übergang RGs zu OG1",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "08.04.2022"
+          ],
+          "extracted": [
+            "08.04.2022"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0428-1",
+          "extracted": "0428-1",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0467_41_AR_BE_XX_ BKP 221.4 Fenster in Alu _ BKP 215.2 Fassadenbau_01_.pdf",
+      "elapsed_s": 5.484,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "BKP 221.4 Fenster in Alu / BKP 215.2 Fassadenbau Übersicht DG2",
+          "extracted": "0467 Umbau Wohn- und Geschäftshaus Paulstrasse 12",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "21.03.2025"
+          ],
+          "extracted": [
+            "21.03.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0467_41_AR_SP_D2_BKP 221.4 Fenster in Alu / BKP 215.2 Fassadenbau Übersicht DG2_01",
+          "extracted": "0467.41.AR.SP.D2.BKP.221.4 Fenster in Alu / BKP 215.2 Fassadenbau Übersicht DG2_01",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": [
+            "221.4",
+            "215.2"
+          ],
+          "extracted": [
+            "221.4",
+            "215.2"
+          ],
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0503_Praesentation_PT11_.pdf",
+      "elapsed_s": 8.965,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "Planfreeze 3.0 Erdgeschoss",
+          "extracted": "Erdgeschoss",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/10-26_AD_A_258.126-GR Küchen Typ 10.pdf",
+      "elapsed_s": 4.075,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "GR Küchen Typ 10",
+          "extracted": "GR Küchen Typ 10",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "30.09.2021"
+          ],
+          "extracted": [
+            "30.09.2021"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "10-26_AD_A_258.126",
+          "extracted": "10-26_AD_A_258.126",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/1200 GR Grundrisse 1_200.pdf",
+      "elapsed_s": 3.92,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Untergeschoss",
+          "extracted": "Untergeschoss",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "10.06.2025"
+          ],
+          "extracted": [
+            "10.06.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0502_1201",
+          "extracted": "0502_1201",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/16-20_AD_A_271_Gipserarbeiten_Schaechte_Block_B_Vorabzug.pdf",
+      "elapsed_s": 4.3,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Gipserarbeiten ÜS Schächte Block B 1.UG",
+          "extracted": "Gipsarbeiten US Schächte Block B 1.UG",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "11.02.2020"
+          ],
+          "extracted": [
+            "11.02.2020"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "16-20_AÜ_A_271.018",
+          "extracted": "16-20_AÜ_A_271.018",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/1732-190819-A3-Stand S+S-r_.pdf",
+      "elapsed_s": 9.538,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "01 F/W 14 Unterführung Dreikönigbrücke",
+          "extracted": "Übersichtsplan 1:100 / 50",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "08.2017"
+          ],
+          "extracted": [
+            "19.08.2019"
+          ],
+          "outcome": "miss"
+        },
+        "plan_no": {
+          "golden": "16061.4.14",
+          "extracted": "15002",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:100",
+            "1:50"
+          ],
+          "extracted": [
+            "1:100",
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/190617_0395_Grundriss_asp.pdf",
+      "elapsed_s": 8.36,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "Erdgeschoss",
+          "extracted": "Erdgeschoss",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "13.06.2019"
+          ],
+          "extracted": [
+            "13.06.2019"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:500"
+          ],
+          "extracted": [
+            "1:500"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/20231221181358.pdf",
+      "elapsed_s": 4.572,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Baumasse BMZ & Tabelle",
+          "extracted": "1.328 ROOTS Effretikon Rosenweg",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "20.12.2023",
+            "20.12.2023"
+          ],
+          "extracted": [
+            "20.12.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "1.328_32_AR_SP_BM_XXX_101",
+          "extracted": "1.328.32.AR.SP.BM.XXX.101",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:500",
+            "1:100"
+          ],
+          "extracted": [
+            "1:500",
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/229.2.1024-A Schnitt 4-4.pdf",
+      "elapsed_s": 3.833,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Schnitt 4-4 - 229.2.1024-A",
+          "extracted": "Schnitt 4-4",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "26.10.2009"
+          ],
+          "extracted": [
+            "26.10.2009"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/23.0242 BP Züllig Pergola Kommentare.pdf",
+      "elapsed_s": 3.88,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Pergola Carport",
+          "extracted": "Pergola Carport",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "13.08.2025"
+          ],
+          "extracted": [
+            "13.08.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0481-GR_02",
+          "extracted": "0481-GR_02",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": [
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/240605 Stadion Grundrisse 1_200 A0.pdf",
+      "elapsed_s": 4.566,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Grundriss 3.OG",
+          "extracted": "Grundriss 3.OG",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "15.05.2024",
+            "04.06.2024"
+          ],
+          "extracted": [
+            "04.06.2024"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "1101",
+          "extracted": "1101",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/250827_ASF_ENB Guet_Holzbaudetails Haus A_.pdf",
+      "elapsed_s": 3.375,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Konstruktionsaufbauten",
+          "extracted": "Fassadenbekleidung Attika",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "27.08.2025"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": "DET.8",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": [
+            "1:10"
+          ],
+          "extracted": [
+            "1:1"
+          ],
+          "outcome": "miss"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/260318_0485_Planstand1_100 grau.pdf",
+      "elapsed_s": 7.766,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/265_2_4502 [Südfassade Detail].pdf",
+      "elapsed_s": 3.943,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Südfassade Detail",
+          "extracted": "Südfassade Detail",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "22.07.2013"
+          ],
+          "extracted": [
+            "22.07.2013"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "265_2_4502",
+          "extracted": "265_2_4502",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/2926-103 Bodenplatte_Wände HSB.pdf",
+      "elapsed_s": 3.818,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "BODENPLATE + WÄNDE HSB SCHACHT",
+          "extracted": "SCHEMA DER LAGEN",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "20.06.2011"
+          ],
+          "extracted": [
+            "04.2008"
+          ],
+          "outcome": "miss"
+        },
+        "plan_no": {
+          "golden": "103",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": [
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/331_ISTE-Plandokumentation_.pdf",
+      "elapsed_s": 8.124,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": "Situation 1:2000",
+          "outcome": "fp"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:2000"
+          ],
+          "extracted": [
+            "1:2000"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/485_VP_Abbruch_161005.pdf",
+      "elapsed_s": 4.739,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Abbruchplan Bushof",
+          "extracted": "Abbruchplan Bushof",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "05.10.2016"
+          ],
+          "extracted": [
+            "05.10.2016"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "VP_011",
+          "extracted": "VP_011",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/8707-111.pdf",
+      "elapsed_s": 6.113,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Decke über 1.UG",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "date": {
+          "golden": [
+            "14.04.1989"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": "8707-111",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": [
+            "1:50",
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/A-SP-ZZ-420.02-V Küche Typ 1 Halle AN A, SN A.pdf",
+      "elapsed_s": 4.144,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Küche Typ 1 Halle AN A, SN A",
+          "extracted": "Küche Typ 1 Halle AN A, SN A",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "15.12.2023"
+          ],
+          "extracted": [
+            "15.12.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "A-SP-ZZ-420.02-V",
+          "extracted": "A-SP-ZZ-420.02-V",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Abgabe Vorprojekt_.pdf",
+      "elapsed_s": 3.297,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "27.02.2017"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:800"
+          ],
+          "extracted": [
+            "1:800"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/CAD-Pläne 22-0999-011B bis -018 rev.2 15.05.24_freiga.pdf",
+      "elapsed_s": 3.142,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": "Schnitt A - A",
+          "outcome": "fp"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "22-0999-011B",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/ENB Guet 281 Fugen Unterlagsböden_Anpassungen Erker:Einschiebling.pdf",
+      "elapsed_s": 4.144,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "ÜS Bodenbeläge EG A",
+          "extracted": "0439 Guet",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "07.11.2025"
+          ],
+          "extracted": [
+            "11.07.2025"
+          ],
+          "outcome": "miss"
+        },
+        "plan_no": {
+          "golden": "AB-SP-EG-PA-281.12-V",
+          "extracted": "AB-SP-EG-PA-281.12-V",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:300"
+          ],
+          "extracted": [
+            "1:300"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Frühstück_im_Gruenen_Layout1.pdf",
+      "elapsed_s": 6.355,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Wohnsiedlung Schwamendinger - Dreieck, Baufeld B",
+          "extracted": "Situationsplan 1:500",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:500"
+          ],
+          "extracted": [
+            "1:500"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/GLA-X-41-ARC-XX-NZ-00000-1_gesamt_eho.pdf",
+      "elapsed_s": 4.204,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Nasszellen Materialisierung (3)",
+          "extracted": "0458 Glattwiesenstrasse, Zürich",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "05.12.2023"
+          ],
+          "extracted": [
+            "05.12.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "GLA-X-41-ARC-XX-NZ-00000-1",
+          "extracted": "GLA-X-41-ARC-XX-NZ-00000-1",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Genehmigte Pläne 20210305 pos.pdf",
+      "elapsed_s": 4.267,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Hauptzugang Längsschnitt",
+          "extracted": "Hauptzugang Längsschnitt",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "17.02.2021"
+          ],
+          "extracted": [
+            "17.02.2021"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "EBO-POOL-33-SC-ZZZ-009904-00",
+          "extracted": "EBO-POOL-33-SC-ZZZ-009904-00",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Holz-Metall-Fenster_231129 - CIAG_kommentiert_mse.pdf",
+      "elapsed_s": 4.731,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Übersicht Holz-Metall-Fenster BBE - Ost, West",
+          "extracted": "Übersicht Holz-Metall-Fenster BBE - Ost, West",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "17.11.2023",
+            "17.11.2023"
+          ],
+          "extracted": [
+            "17.11.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "3.0100_ARCH_0440_300",
+          "extracted": "3.0100_ARCH_ _0440_300",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:300",
+            "1:1"
+          ],
+          "extracted": [
+            "1:300",
+            "1:1"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/HolzbauFassade_Detailkatalog Gebäudehülle_K ommCIAG_230817_concept.pdf",
+      "elapsed_s": 3.366,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Geschossübergang Grid horizontal Ebene2 BBE",
+          "extracted": "Vorabzug",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "28.07.2023"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": "29517_922",
+          "extracted": "922",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": [
+            "1:10"
+          ],
+          "extracted": [
+            "1:10"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Kellergrundriss Gebälk über Keller.pdf",
+      "elapsed_s": 4.581,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": "SEITE KIEFERWEG /",
+          "outcome": "fp"
+        },
+        "date": {
+          "golden": [
+            "25.06.1945"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/NZ-B-2 Nasszelle B-2 EG_Grundriss.pdf",
+      "elapsed_s": 4.152,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "KELLERGRUNDRISS",
+          "extracted": "Nasszelle B-2 EG_Grundriss",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "20.02.2025"
+          ],
+          "extracted": [
+            "20.02.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "0481-40-DE-NZ-B-2",
+          "extracted": "0481-40-DE-NZ-B-2",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:20"
+          ],
+          "extracted": [
+            "1:20"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/OBB-AR-BP-EG-XX-XXX-103-Va_230428.pdf",
+      "elapsed_s": 6.142,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Landerwerbsplan",
+          "extracted": "Um- und Neubau BLS Werkstätte Oberburg km 24.700 - 25.500",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "21.04.2023",
+            "28.04.2023"
+          ],
+          "extracted": [
+            "21.04.2023",
+            "27.04.2023",
+            "28.04.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "OBB-AR-BP-EG-XX-XXX-103-Va",
+          "extracted": "OBB-AR-BP-EG-XX-XXX-103-Va",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:1000"
+          ],
+          "extracted": [
+            "1:1000"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/PDF176.pdf",
+      "elapsed_s": 3.483,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Aussengeräteraum Vertikalschnitt",
+          "extracted": "Aussengeräteraum Vertikalschnitt",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "7.3",
+          "extracted": "141832",
+          "outcome": "miss"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/RZE_4.7.11_visiert.pdf",
+      "elapsed_s": 4.063,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "4.7.11 Sim-Lab/Tragwerksl. Grundriss EG",
+          "extracted": "4.7.11 Sim-Lab/Tragwerksl. Grundriss EG",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "24.10.2018",
+            "24.10.2018"
+          ],
+          "extracted": [
+            "24.10.2018"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/SW13_BA_ES01.pdf",
+      "elapsed_s": 8.55,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "Anschluss an Massivdecke; Estrich im Wandbereich getrennt",
+          "extracted": "SW13 Doppelständerwände; zweilagig beplankt",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "01.2015"
+          ],
+          "extracted": [
+            "01.2015"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "081",
+          "extracted": "081",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:2,5"
+          ],
+          "extracted": [
+            "1:2,5"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Tragkonzept_19.5.20.pdf",
+      "elapsed_s": 3.796,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Ebene -1 (Biliothekshof/ Quartiershof)",
+          "extracted": "Ebene -1 (Biliothekshof/ Quartiershof)",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Y84.pdf",
+      "elapsed_s": 4.188,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Gewächshaus Y84 1. und 2. Untergeschoss",
+          "extracted": "Gewächshaus Y84 1. und 2. Untergeschoss",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "29.07.2016",
+            "30.07.2019"
+          ],
+          "extracted": [
+            "30.07.2019"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "2",
+          "extracted": "2",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200"
+          ],
+          "extracted": [
+            "1:200"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Zeichn.Nr.20 Blatt 13.pdf",
+      "elapsed_s": 4.023,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Maschinenhaus & Mittelbau Kote 410.85",
+          "extracted": "Maschinenhaus & Mittelbau Kote 410.85",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "17.07.2001"
+          ],
+          "extracted": [
+            "17.07.2001"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "20",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": [
+            "1:400"
+          ],
+          "outcome": "fp"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/00000-00_V-Z3-SC-S04-050-020C.pdf",
+      "elapsed_s": 9.714,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "Schnitte Schnitt S4",
+          "extracted": "Zeughaus 3 (Kanonen gasse 18B) Bestandesaufnahme",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "04.04.2024"
+          ],
+          "extracted": [
+            "09.06.2024"
+          ],
+          "outcome": "miss"
+        },
+        "plan_no": {
+          "golden": "Z3-020",
+          "extracted": "Z3-020",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": [
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/1.2 GebÑude A_LOD 1_50.pdf",
+      "elapsed_s": 8.459,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "-1. Untergeschoss",
+          "extracted": "-1. Untergeschoss",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "03.11.2025"
+          ],
+          "extracted": [
+            "03.11.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "1.1.1.1",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": [
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/0496_231106_Debriefing_Woche3.pdf",
+      "elapsed_s": 3.477,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Variante 0",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:1000"
+          ],
+          "extracted": [
+            "1:1000"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/801_d_Spielfeldmarkierungen_2010.pdf",
+      "elapsed_s": 3.245,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "American Football",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "date": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:200",
+            "1:1000"
+          ],
+          "extracted": [
+            "1:1000"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/034253 Wasserwerkstrasse 99.pdf",
+      "elapsed_s": 14.409,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "KANALISATION - U. UMGEBUNGSARBEITEN",
+          "extracted": "E.W.Z. UNTERWERK LEITEN - ZG",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "15.01.1937"
+          ],
+          "extracted": [
+            "15.01.1957"
+          ],
+          "outcome": "miss"
+        },
+        "plan_no": {
+          "golden": "5501",
+          "extracted": "5501",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": [
+            "256.2"
+          ],
+          "outcome": "fp"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/20251217_SSA Kesselhaus_Landschaft Präsentation für TAZ,GSZ,EWZ.pdf",
+      "elapsed_s": 3.73,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "Konzept Mittlerer Letten",
+          "extracted": "Konzept Mittlerer Letten",
+          "outcome": "hit"
+        },
+        "date": {
+          "golden": [
+            "17.12.2025"
+          ],
+          "extracted": [
+            "17.12.2025"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/H4 RG.pdf",
+      "elapsed_s": 3.374,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": "RG (1.OG - 6.OG)",
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "date": {
+          "golden": [
+            "09.04.2025"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": [
+            "1:100"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Schatten.pdf",
+      "elapsed_s": 4.997,
+      "fallback": false,
+      "fields": {
+        "plan_name": {
+          "golden": null,
+          "extracted": "SCHATTEN AM 21. MÄRZ UM 21. SEPT. UM 12.28 H. SCHATTEN AM 21. JUNI UM 12.28 H.",
+          "outcome": "fp"
+        },
+        "date": {
+          "golden": null,
+          "extracted": [
+            "21.03.2013",
+            "21.09.2013",
+            "21.06.2013"
+          ],
+          "outcome": "fp"
+        },
+        "plan_no": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:100"
+          ],
+          "extracted": null,
+          "outcome": "fn"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    },
+    {
+      "pdf_path": "data/drawings/Z5-001 Untergeschoss.pdf",
+      "elapsed_s": 11.021,
+      "fallback": true,
+      "fields": {
+        "plan_name": {
+          "golden": "Grundrisse Untergeschoss",
+          "extracted": "Zeughaus Z5 (Zeughausstrasse 60) Bestandesaufnahme Untergeschoss",
+          "outcome": "miss"
+        },
+        "date": {
+          "golden": [
+            "30.11.2023"
+          ],
+          "extracted": [
+            "30.11.2023"
+          ],
+          "outcome": "hit"
+        },
+        "plan_no": {
+          "golden": "Z5-001",
+          "extracted": "Z5-001",
+          "outcome": "hit"
+        },
+        "scale": {
+          "golden": [
+            "1:50"
+          ],
+          "extracted": [
+            "1:50"
+          ],
+          "outcome": "hit"
+        },
+        "bkp_code": {
+          "golden": null,
+          "extracted": null,
+          "outcome": "hit"
+        }
+      }
+    }
+  ]
+}
