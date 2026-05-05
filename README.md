@@ -121,11 +121,6 @@ Evaluated against a hand-labelled golden set of 53 architectural PDFs from a rea
 | Mean          | 5.28 s   |
 | Fallback rate | 18.9%    |
 
-<details>
-  <summary>Raw evaluation output</summary>
-  <img src="docs/results.png" alt="Evaluation results" width="500">
-</details>
-
 Measured on Apple M4 Max with Ollama 0.23.0. Latency scales roughly with GPU memory bandwidth.
 
 The per-field spread is the interesting story. Strictly-formatted fields (`bkp_code`, `scale`) approach ceiling because validation can verify them against a known grammar — anything malformed is dropped before it reaches the result. Date and plan number sit in the middle: well-defined formats but multiple candidates per drawing and frequent label ambiguity (a "plan number" field can hold a project number, a sheet number, or a revision tag depending on the firm). `plan_name` is the hardest field by a wide margin, because it requires the model to disambiguate the descriptive title from project names, street addresses, and firm names that share the same panel and often the same typography. Improving this field is the main open work item.
