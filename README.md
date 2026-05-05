@@ -105,8 +105,6 @@ python evaluate.py summary data/results/...  # print aggregate report from a res
 
 Evaluated against a hand-labelled golden set of 53 architectural PDFs from a real Swiss office archive, spanning multiple projects, decades, and title-block layouts.
 
-![Evaluation results](docs/results.png)
-
 | Field        | Accuracy |
 | ------------ | -------- |
 | `bkp_code`   | 98.1%    |
@@ -122,6 +120,11 @@ Evaluated against a hand-labelled golden set of 53 architectural PDFs from a rea
 | p95           | 9.61 s   |
 | Mean          | 5.28 s   |
 | Fallback rate | 18.9%    |
+
+<details>
+  <summary>Raw evaluation output</summary>
+  <img src="docs/results.png" alt="Evaluation results" width="500">
+</details>
 
 Measured on Apple M4 Max with Ollama 0.23.0. Latency scales roughly with GPU memory bandwidth.
 
